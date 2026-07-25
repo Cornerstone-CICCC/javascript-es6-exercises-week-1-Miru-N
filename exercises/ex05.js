@@ -3,9 +3,9 @@ const shirtLength = 30;
 const shirtSleeve = 8.71;
 
 if (
-  shirtWidth === 18 &&
-  shirtLength === 28 &&
-  shirtSleeve === 8.13
+  shirtWidth === 18 && // Feedback: use size ranges, not only the exact chart number; S width is >= 18 and < 20.
+  shirtLength === 28 && // Feedback: use ranges for length too; S length is >= 28 and < 29.
+  shirtSleeve === 8.13 // Feedback: use ranges for sleeve too; S sleeve is >= 8.13 and < 8.38.
 ) {
   console.log("S");
 } else if (
